@@ -64,7 +64,7 @@ let allen = new Person('Allen', 27);
 
 console.log(josh.print_info_arrow())
 console.log(allen.print_info_arrow())
-console.log(allen.incrementAge(27,1))
+console.log(allen.incrementAge(27,1),allen.incrementAge(28,1),allen.incrementAge(29,1))
 // Use an arrow to create the printInfo method
 
 // Create another arrow function for the addAge method that takes a single parameter
